@@ -1,0 +1,13 @@
+[package]
+name = "curves"
+version = "0.1.0"
+edition = { workspace = true }
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+pallet-referenda = { workspace = true }
+sp-runtime = { workspace = true }
+getrandom = { workspace = true }
+
+[lib]
+crate-type = ["cdylib", "rlib"]

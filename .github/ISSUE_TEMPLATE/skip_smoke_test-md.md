@@ -1,7 +1,7 @@
 ---
 name: SKIP_SMOKE_TEST.md
 about: Temporary skip a smoke test
-title: "[SMOKE TEST]"
+title: S22C500 <- Replace with the full smoke test ID to skip
 labels: disable-smoke
 assignees: noandrea
 
